@@ -1,0 +1,2027 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://github.com/akhil2204/ontology/blob/master/rd.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://github.com/akhil2204/ontology/blob/master/rd.owl"
+     versionIRI="https://github.com/akhil2204/ontology/blob/master/rd.owl/1.0">
+    <Prefix name="" IRI="https://github.com/akhil2204/ontology/blob/master/rd.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Kirin_960"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Snapdragon_800_Series"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Htc_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Mali-G31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Sony_X1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Xiaomi_max"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#Supports_Augment_reality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#Support_high_eng_gaming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Apple_A10_Fusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Snapdragon_400_series"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#One_plus_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#ARM_cortex_A73"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#Sold_in_countries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_430"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Huawei_Mate_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Samsung_note_9"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#originating_country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Huawei"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_835"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andriod_8.0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Mali-G72"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Sony_z5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_660"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#designed_on_fet_chip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Adreno_630"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Xiaomi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Oppo_F1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#ARM_cortex____A57"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#employess_working_under"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Apple_A9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Oppo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#manufactured_in_country"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#clock_speed_and_core_boost"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Kirin_659"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ios_10"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#Supports_LTE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Honour_10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Xiaomi_Mix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Mediateck_Helio_X30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andriod_7.0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Nvidea_Tegra_K1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Exynos_9810"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#honour_9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1G_Band"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Lenovo_Phab_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Nvidia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#samsung_exynos_processor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CDMA_ONE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Apple_iphone_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Exynos_8895"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Nvidea_Tegra_X1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#Number_of_models_releasing_every_year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Apple_iphone_XS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Apple_A_Series__Processor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_845"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Hisilicon_processor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Coverage_Band"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Asus_Zenfone_Max"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#HTC_mobile_design_has"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Nvidea_Tegra_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_820"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ASUS_COMPANY_DESIGN_HAS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Gpu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LTE_ADVANCED_PRO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apple_os"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Apple_A11_Bionic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ios_12"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#Time_taken_to_design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Mediateck_Helio_X20"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#Reserch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3G_Band"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_710"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#Lenovo_mobile_design_has"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#investment_for_designing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Samsung"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#Has_processor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Apple_A12_bionic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#Sony_Mobile_Design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LTE_ADVANCED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#ARM_cortex_A53"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#One_plus_5t"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#Nvidea_Shield_design_has"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#sony_Z3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ios_11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TACS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_450"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Nvidia__Tegra_Processor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Mediateck_Helio_P20"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Honour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Htc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_lenovo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Vivo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#Providing_customer_service_in_countries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Mali_Gpu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Vivo_R3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_625"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2G_Band"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#Pricing_of_products"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#New_mobiles_launching"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Huawei_Nova_plus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Kirin_970"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#Honour_mobile_design_has"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#Units_manufactured_by_every_compnay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#windows_os"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Apple_iphone_10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Vivo_nex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Exynos_8890"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mobile_software"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Nvidia_shield"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Asus_zenfone_3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Asus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Samsung_s9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Lenovo_z2_plus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Oneplus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#Head_quaters_in_country"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#Designs_of_all_mobile_ARchitecture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UMTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Adreno_Gpu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Adreno_540"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Snapdragon_600_series"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#processor_aligned_with_gpu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Snapdragon_700_Series"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Sony"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#mobile_Arcitecture_created_by_company"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AMPS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Htc_10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Windows_os8.1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#Investments"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Honour_play"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#Huawei_mobile_design_has"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Andriod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.rd.org#ware_houses_in_country"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Samsung_s8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4G_Band"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#supports_fast_charging"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#mobile_phone__has"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Windows_10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_650"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#Oppo_F3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.rd.org#Samsung_Mobile_design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.rd.org#ARM_cortex_A72"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andriod_6.0"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Adreno_Gpu"/>
+        <Class IRI="http://www.rd.org#Gpu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Apple_A_Series__Processor"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Hisilicon_processor"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Mali_Gpu"/>
+        <Class IRI="http://www.rd.org#Gpu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Nvidia__Tegra_Processor"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Apple"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Asus"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Honour"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Htc"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Huawei"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Nvidia"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Oneplus"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Oppo"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Samsung"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Sony"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Vivo"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Xiaomi"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Product_Designed_By_lenovo"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Snapdragon_400_series"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Snapdragon_600_series"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Snapdragon_700_Series"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Snapdragon_800_Series"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.rd.org#samsung_exynos_processor"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Andriod"/>
+        <Class IRI="#mobile_software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apple_os"/>
+        <Class IRI="#mobile_software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#windows_os"/>
+        <Class IRI="#mobile_software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1G_Band"/>
+        <Class IRI="#Network_Coverage_Band"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2G_Band"/>
+        <Class IRI="#Network_Coverage_Band"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3G_Band"/>
+        <Class IRI="#Network_Coverage_Band"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4G_Band"/>
+        <Class IRI="#Network_Coverage_Band"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.rd.org#Adreno_Gpu"/>
+        <Class IRI="http://www.rd.org#Mali_Gpu"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.rd.org#Apple_A_Series__Processor"/>
+        <Class IRI="http://www.rd.org#Hisilicon_processor"/>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+        <Class IRI="http://www.rd.org#Nvidia__Tegra_Processor"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+        <Class IRI="http://www.rd.org#samsung_exynos_processor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+        <Class IRI="http://www.rd.org#Gpu"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+        <Class IRI="#Network_Coverage_Band"/>
+        <Class IRI="#mobile_software"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Asus"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Oneplus"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Xiaomi"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.rd.org#Snapdragon_400_series"/>
+        <Class IRI="http://www.rd.org#Snapdragon_600_series"/>
+        <Class IRI="http://www.rd.org#Snapdragon_700_Series"/>
+        <Class IRI="http://www.rd.org#Snapdragon_800_Series"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Andriod"/>
+        <Class IRI="#Apple_os"/>
+        <Class IRI="#windows_os"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#2G_Band"/>
+        <Class IRI="#3G_Band"/>
+        <Class IRI="#4G_Band"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+        <NamedIndividual IRI="http://www.rd.org#ARM_cortex_A53"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+        <NamedIndividual IRI="http://www.rd.org#ARM_cortex_A72"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+        <NamedIndividual IRI="http://www.rd.org#ARM_cortex_A73"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+        <NamedIndividual IRI="http://www.rd.org#ARM_cortex____A57"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Adreno_Gpu"/>
+        <NamedIndividual IRI="http://www.rd.org#Adreno_540"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Adreno_Gpu"/>
+        <NamedIndividual IRI="http://www.rd.org#Adreno_630"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Apple_A_Series__Processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Apple_A10_Fusion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Apple_A_Series__Processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Apple_A11_Bionic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Apple_A_Series__Processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Apple_A12_bionic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Apple_A_Series__Processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Apple_A9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Apple"/>
+        <NamedIndividual IRI="http://www.rd.org#Apple_iphone_10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Apple"/>
+        <NamedIndividual IRI="http://www.rd.org#Apple_iphone_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Apple"/>
+        <NamedIndividual IRI="http://www.rd.org#Apple_iphone_XS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Asus"/>
+        <NamedIndividual IRI="http://www.rd.org#Asus_Zenfone_Max"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Asus"/>
+        <NamedIndividual IRI="http://www.rd.org#Asus_zenfone_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#samsung_exynos_processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Exynos_8890"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#samsung_exynos_processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Exynos_8895"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#samsung_exynos_processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Exynos_9810"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Honour"/>
+        <NamedIndividual IRI="http://www.rd.org#Honour_10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Honour"/>
+        <NamedIndividual IRI="http://www.rd.org#Honour_play"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Htc"/>
+        <NamedIndividual IRI="http://www.rd.org#Htc_10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Htc"/>
+        <NamedIndividual IRI="http://www.rd.org#Htc_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Huawei"/>
+        <NamedIndividual IRI="http://www.rd.org#Huawei_Mate_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Huawei"/>
+        <NamedIndividual IRI="http://www.rd.org#Huawei_Nova_plus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Hisilicon_processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Kirin_659"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Hisilicon_processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Kirin_960"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Hisilicon_processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Kirin_970"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_lenovo"/>
+        <NamedIndividual IRI="http://www.rd.org#Lenovo_Phab_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_lenovo"/>
+        <NamedIndividual IRI="http://www.rd.org#Lenovo_z2_plus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Mali_Gpu"/>
+        <NamedIndividual IRI="http://www.rd.org#Mali-G31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Mali_Gpu"/>
+        <NamedIndividual IRI="http://www.rd.org#Mali-G72"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Mediateck_Helio_P20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Mediateck_Helio_X20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Mediateck_Helio_X30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Nvidia__Tegra_Processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Nvidea_Tegra_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Nvidia__Tegra_Processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Nvidea_Tegra_K1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Nvidia__Tegra_Processor"/>
+        <NamedIndividual IRI="http://www.rd.org#Nvidea_Tegra_X1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Nvidia"/>
+        <NamedIndividual IRI="http://www.rd.org#Nvidia_shield"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Oneplus"/>
+        <NamedIndividual IRI="http://www.rd.org#One_plus_5t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Oneplus"/>
+        <NamedIndividual IRI="http://www.rd.org#One_plus_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Oppo"/>
+        <NamedIndividual IRI="http://www.rd.org#Oppo_F1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Oppo"/>
+        <NamedIndividual IRI="http://www.rd.org#Oppo_F3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Samsung"/>
+        <NamedIndividual IRI="http://www.rd.org#Samsung_note_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Samsung"/>
+        <NamedIndividual IRI="http://www.rd.org#Samsung_s8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Samsung"/>
+        <NamedIndividual IRI="http://www.rd.org#Samsung_s9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Snapdragon_400_series"/>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_430"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Snapdragon_400_series"/>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_450"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Snapdragon_600_series"/>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_625"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Snapdragon_600_series"/>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_650"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Snapdragon_600_series"/>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_660"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Snapdragon_700_Series"/>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_710"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Snapdragon_800_Series"/>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_820"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Snapdragon_800_Series"/>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_835"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Snapdragon_800_Series"/>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_845"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Sony"/>
+        <NamedIndividual IRI="http://www.rd.org#Sony_X1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Sony"/>
+        <NamedIndividual IRI="http://www.rd.org#Sony_z5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Vivo"/>
+        <NamedIndividual IRI="http://www.rd.org#Vivo_R3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Vivo"/>
+        <NamedIndividual IRI="http://www.rd.org#Vivo_nex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Xiaomi"/>
+        <NamedIndividual IRI="http://www.rd.org#Xiaomi_Mix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Xiaomi"/>
+        <NamedIndividual IRI="http://www.rd.org#Xiaomi_max"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Honour"/>
+        <NamedIndividual IRI="http://www.rd.org#honour_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Sony"/>
+        <NamedIndividual IRI="http://www.rd.org#sony_Z3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#1G_Band"/>
+        <NamedIndividual IRI="#AMPS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Andriod"/>
+        <NamedIndividual IRI="#Andriod_6.0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Andriod"/>
+        <NamedIndividual IRI="#Andriod_7.0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Andriod"/>
+        <NamedIndividual IRI="#Andriod_8.0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#2G_Band"/>
+        <NamedIndividual IRI="#CDMA_ONE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#2G_Band"/>
+        <NamedIndividual IRI="#GSM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apple_os"/>
+        <NamedIndividual IRI="#Ios_10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apple_os"/>
+        <NamedIndividual IRI="#Ios_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apple_os"/>
+        <NamedIndividual IRI="#Ios_12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#4G_Band"/>
+        <NamedIndividual IRI="#LTE_ADVANCED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#4G_Band"/>
+        <NamedIndividual IRI="#LTE_ADVANCED_PRO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#1G_Band"/>
+        <NamedIndividual IRI="#TACS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#3G_Band"/>
+        <NamedIndividual IRI="#UMTS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#windows_os"/>
+        <NamedIndividual IRI="#Windows_10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#windows_os"/>
+        <NamedIndividual IRI="#Windows_os8.1"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.rd.org#clock_speed_and_core_boost"/>
+        <NamedIndividual IRI="http://www.rd.org#Apple_A12_bionic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2.49 ghz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.rd.org#designed_on_fet_chip"/>
+        <NamedIndividual IRI="http://www.rd.org#Apple_A12_bionic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">7 nm chip</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.rd.org#clock_speed_and_core_boost"/>
+        <NamedIndividual IRI="http://www.rd.org#Exynos_8890"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">4x A53@1.586GHz
+
+4x Exynos M1 @
+2.60GHz (1-2 core load)
+2.29GHz (3-4 core load)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.rd.org#designed_on_fet_chip"/>
+        <NamedIndividual IRI="http://www.rd.org#Exynos_8890"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">14nm chip</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.rd.org#clock_speed_and_core_boost"/>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_845"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CPU Clock Speed: Up to 2.8 GHz
+    4x Kryo 385 Gold @ 2.8GHz 
+ 4x Kryo 385 silver @ 1.8GHz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.rd.org#designed_on_fet_chip"/>
+        <NamedIndividual IRI="http://www.rd.org#Snapdragon_845"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">designed on 10 nm</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.rd.org#Designs_of_all_mobile_ARchitecture"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.rd.org#HTC_mobile_design_has"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.rd.org#Has_processor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.rd.org#Honour_mobile_design_has"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.rd.org#Lenovo_mobile_design_has"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.rd.org#Nvidea_Shield_design_has"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.rd.org#Sony_Mobile_Design"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.rd.org#Support_high_eng_gaming"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.rd.org#Supports_Augment_reality"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.rd.org#supports_fast_charging"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ASUS_COMPANY_DESIGN_HAS"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#Designs_of_all_mobile_ARchitecture"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#HTC_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Htc"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#Honour_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Honour"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#Huawei_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Huawei"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#Lenovo_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Product_Designed_By_lenovo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#Nvidea_Shield_design_has"/>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Nvidia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#Samsung_Mobile_design"/>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Samsung"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#Sony_Mobile_Design"/>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Sony"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#Support_high_eng_gaming"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#Supports_Augment_reality"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#Supports_LTE"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#mobile_phone__has"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.rd.org#supports_fast_charging"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ASUS_COMPANY_DESIGN_HAS"/>
+        <Class IRI="http://www.rd.org#Product_Designed_By_Asus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Designs_of_all_mobile_ARchitecture"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Designs_of_all_mobile_ARchitecture"/>
+        <Class IRI="http://www.rd.org#Gpu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Designs_of_all_mobile_ARchitecture"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#HTC_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#HTC_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Gpu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#HTC_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#HTC_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Has_processor"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Has_processor"/>
+        <Class IRI="http://www.rd.org#Gpu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Has_processor"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Honour_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Honour_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Hisilicon_processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Honour_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Mali_Gpu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Huawei_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Huawei_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Hisilicon_processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Huawei_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Mali_Gpu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Lenovo_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Lenovo_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Gpu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Lenovo_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Lenovo_mobile_design_has"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Nvidea_Shield_design_has"/>
+        <Class IRI="http://www.rd.org#Adreno_Gpu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Nvidea_Shield_design_has"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Nvidea_Shield_design_has"/>
+        <Class IRI="http://www.rd.org#Nvidia__Tegra_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Samsung_Mobile_design"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Samsung_Mobile_design"/>
+        <Class IRI="http://www.rd.org#Mali_Gpu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Samsung_Mobile_design"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Samsung_Mobile_design"/>
+        <Class IRI="http://www.rd.org#samsung_exynos_processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Sony_Mobile_Design"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Sony_Mobile_Design"/>
+        <Class IRI="http://www.rd.org#Gpu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Sony_Mobile_Design"/>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Sony_Mobile_Design"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_Augment_reality"/>
+        <Class IRI="http://www.rd.org#Apple_A_Series__Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_Augment_reality"/>
+        <Class IRI="http://www.rd.org#Hisilicon_processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_Augment_reality"/>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_Augment_reality"/>
+        <Class IRI="http://www.rd.org#Nvidia__Tegra_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_Augment_reality"/>
+        <Class IRI="http://www.rd.org#Snapdragon_800_Series"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_Augment_reality"/>
+        <Class IRI="http://www.rd.org#samsung_exynos_processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+        <Class IRI="http://www.rd.org#Apple_A_Series__Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+        <Class IRI="http://www.rd.org#Hisilicon_processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+        <Class IRI="http://www.rd.org#Nvidia__Tegra_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+        <Class IRI="http://www.rd.org#Snapdragon_400_series"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+        <Class IRI="http://www.rd.org#Snapdragon_600_series"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+        <Class IRI="http://www.rd.org#Snapdragon_700_Series"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+        <Class IRI="http://www.rd.org#Snapdragon_800_Series"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_GSM"/>
+        <Class IRI="http://www.rd.org#samsung_exynos_processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_LTE"/>
+        <Class IRI="http://www.rd.org#Apple_A_Series__Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_LTE"/>
+        <Class IRI="http://www.rd.org#Hisilicon_processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_LTE"/>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_LTE"/>
+        <Class IRI="http://www.rd.org#Nvidia__Tegra_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_LTE"/>
+        <Class IRI="http://www.rd.org#Snapdragon_600_series"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_LTE"/>
+        <Class IRI="http://www.rd.org#Snapdragon_700_Series"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_LTE"/>
+        <Class IRI="http://www.rd.org#Snapdragon_800_Series"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_LTE"/>
+        <Class IRI="http://www.rd.org#Snapdragon_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#Supports_LTE"/>
+        <Class IRI="http://www.rd.org#samsung_exynos_processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#mobile_phone__has"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#mobile_phone__has"/>
+        <Class IRI="http://www.rd.org#Gpu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#mobile_phone__has"/>
+        <Class IRI="#Network_Coverage_Band"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#supports_fast_charging"/>
+        <Class IRI="http://www.rd.org#Apple_A_Series__Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#supports_fast_charging"/>
+        <Class IRI="http://www.rd.org#Hisilicon_processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#supports_fast_charging"/>
+        <Class IRI="http://www.rd.org#Mediatek_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#supports_fast_charging"/>
+        <Class IRI="http://www.rd.org#Nvidia__Tegra_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#supports_fast_charging"/>
+        <Class IRI="http://www.rd.org#Snapdragon_700_Series"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#supports_fast_charging"/>
+        <Class IRI="http://www.rd.org#Snapdragon_800_Series"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.rd.org#supports_fast_charging"/>
+        <Class IRI="http://www.rd.org#samsung_exynos_processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ASUS_COMPANY_DESIGN_HAS"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ASUS_COMPANY_DESIGN_HAS"/>
+        <Class IRI="http://www.rd.org#Gpu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ASUS_COMPANY_DESIGN_HAS"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ASUS_COMPANY_DESIGN_HAS"/>
+        <Class IRI="#Network_Coverage_Band"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.rd.org#Head_quaters_in_country"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.rd.org#New_mobiles_launching"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.rd.org#Number_of_models_releasing_every_year"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.rd.org#Pricing_of_products"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.rd.org#Sold_in_countries"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.rd.org#Time_taken_to_design"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.rd.org#Units_manufactured_by_every_compnay"/>
+        <DataProperty IRI="http://www.rd.org#ware_houses_in_country"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.rd.org#clock_speed_and_core_boost"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.rd.org#employess_working_under"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.rd.org#investment_for_designing"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.rd.org#originating_country"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.rd.org#processor_aligned_with_gpu"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.rd.org#Units_manufactured_by_every_compnay"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#Head_quaters_in_country"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#Investments"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#New_mobiles_launching"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#Number_of_models_releasing_every_year"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#Pricing_of_products"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#Providing_customer_service_in_countries"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#Reserch"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://www.rd.org#Reserch"/>
+            <Datatype abbreviatedIRI="owl:rational"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#Sold_in_countries"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#Time_taken_to_design"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#Units_manufactured_by_every_compnay"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#clock_speed_and_core_boost"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#designed_on_fet_chip"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#employess_working_under"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#investment_for_designing"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#manufactured_in_country"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#mobile_Arcitecture_created_by_company"/>
+        <Class IRI="http://www.rd.org#Arm_compnay_design"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#originating_country"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#processor_aligned_with_gpu"/>
+        <Class IRI="http://www.rd.org#mobile_processo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.rd.org#ware_houses_in_country"/>
+        <Class IRI="http://www.rd.org#mobile_company_product"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#Head_quaters_in_country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#Investments"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#New_mobiles_launching"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#Number_of_models_releasing_every_year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#Pricing_of_products"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#Providing_customer_service_in_countries"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#Reserch"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#Sold_in_countries"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#Time_taken_to_design"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#Units_manufactured_by_every_compnay"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#clock_speed_and_core_boost"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#designed_on_fet_chip"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#employess_working_under"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#investment_for_designing"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#manufactured_in_country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#mobile_Arcitecture_created_by_company"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#originating_country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#processor_aligned_with_gpu"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.rd.org#ware_houses_in_country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#ARM_cortex_A53</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The ARM Cortex-A53 is one of the first two microarchitectures implementing the ARMv8-A 64-bit instruction set designed by ARM Holdings. The Cortex-A53 is a superscalar processor, capable of dual-issuing some instructions.[1] It is available as SIP core to licensees, and was announced October 30th, 2012[2] and is marketed by ARM as either a stand-alone, more energy-efficient alternative to the more powerful Cortex-A57 microarchitecture, or to be used alongside a more powerful microarchitecture in a big.LITTLE configuration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#ARM_cortex_A72</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The ARM Cortex-A72 is a microarchitecture implementing the ARMv8-A 64-bit instruction set designed by ARM Holdings. The Cortex-A72 is an out-of-order superscalar pipeline.[1] It is available as SIP core to licensees, and its design makes it suitable for integration with other SIP cores (e.g. GPU, display controller, DSP, image processor, etc.) into one die constituting a system on a chip (SoC). The Cortex-A72 serves as the successor of the Cortex-A57, designed to use 20% less power or offer 90% greater performance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#ARM_cortex_A73</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The ARM Cortex-A73 is a microarchitecture implementing the ARMv8-A 64-bit instruction set designed by ARM Holdings. The Cortex-A73 is an out-of-order superscalar pipeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#ARM_cortex____A57</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The ARM Cortex-A57 is a microarchitecture implementing the ARMv8-A 64-bit instruction set designed by ARM Holdings. The Cortex-A57 is an out-of-order superscalar pipeline.[1] It is available as SIP core to licensees, and its design makes it suitable for integration with other SIP cores (e.g. GPU, display controller, DSP, image processor, etc.) into one die constituting a system on a chip (SoC)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Adreno_540</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">he Qualcomm Adreno 540 is an integrated graphics card in the Qualcomm Snapdragon 835 SoC for smartphones. It was introduced in early 2017 and can be found in high-end Android smartphones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Adreno_630</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Qualcomm Adreno 630 is an integrated graphics card in the Qualcomm Snapdragon 845 SoC for smartphones. It was introduced in early 2018 and can be found in high-end Android smartphones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Adreno_Gpu</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Adreno is a series of graphics processing unit (GPU) semiconductor intellectual property cores developed by Qualcomm and used in a variety of their SoCs. The core was initially developed under the Imageon brand name by ATI Technologies, which was acquired by AMD in 2006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Apple_A10_Fusion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Apple A10 Fusion is a 64-bit ARM-based system on a chip (SoC), designed by Apple Inc. and manufactured by TSMC. It first appeared in the iPhone 7 and 7 Plus which were introduced on September 7, 2016 .  Apple states that it has 40% greater CPU performance and 50% greater graphics performance compared to its predecessor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Apple_A11_Bionic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Apple A11 Bionic is a 64-bit ARM-based system on a chip (SoC), designed by Apple Inc.[82] It first appeared in the iPhone 8, iPhone 8 Plus, and iPhone X which were introduced on September 12, 2017.[82] It has two high-performance cores which are 25% faster than the A10 Fusion and four high-efficiency cores which are 70% faster than the energy-efficient cores in the A10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Apple_A12_bionic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Apple A12 Bionic is a 64-bit ARM-based system on a chip (SoC) designed by Apple Inc. It first appeared in the iPhone XS, XS Max and XR which were introduced on September 12, 2018.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Apple_A9</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Apple A9X is a 64-bit system on a chip (SoC) designed by Apple Inc. It was announced on September 9, 2015, and released on November 11, 2015, and first appeared in the iPad Pro.[77] It offers 80% more CPU performance and two times the GPU performance of its predecessor, the Apple A8X. It is manufactured by TSMC using a 16 nm FinFET process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Apple_A_Series__Processor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Apple &quot;A&quot; series of SoCs, Apple used several SoCs in early revisions of the iPhone and iPod touch. They were specified by Apple and manufactured by Samsung. They integrate a single ARM-based processing core (CPU), a graphics processing unit (GPU), and other electronics necessary to provide mobile computing functions within a single physical package</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Arm_compnay_design</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Arm Holdings (Arm) is a British multinational semiconductor and software design company, owned by SoftBank Group and its Vision Fund. With its headquarters in Cambridgeshire, within the United Kingdom, its primary business is in the design of ARM processors (CPUs), although it also designs software development tools under the DS-5, RealView and Keil brands, as well as systems and platforms, system-on-a-chip (SoC) infrastructure and software. As a &quot;Holding&quot; company, it also holds shares of other companies. It is considered to be market dominant for processors in mobile phones (smartphones or otherwise) and tablet computers. The company is one of the best-known &apos;Silicon Fen&apos; companies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Exynos_8890</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Exynos 8 Octa (8890) is Samsung’s premium application processor built on 14nm FinFET LPP process technology for unmatched performance and power efficiency. The Exynos 8890 features company’s first custom designed CPU based on 64-bit ARMv8 architecture to break through the performance limitation from conventional CPU technology. The Exynos 8890 integrates LTE-advanced modem that supports latest LTE specifications up to Category 12/13 for faster and seamless mobile communication.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Exynos_8895</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Exynos 9 Series (8895) comes with a countless number of innovations all geared toward one simple goal: to provide the best mobile experience ever. The Exynos 8895, built on a cutting-edge 10nm FinFET process, features a 2nd generation custom CPU core and an advanced GPU for exceptional performance with low power consumption for extended battery life. For faster and reliable network performance, the processor embeds a 1Gbps LTE-Advanced modem that supports aggregation of up to five carriers. The advanced MFC and dual ISP in the processor enables a truly immersive multimedia experience.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Exynos_9810</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Exynos 9810 features a 3rd generation custom CPU upgraded with wider pipelines and optimized cache memory. With a clock speed of up to 2.9GHz, a 3rd generation custom CPU offers higher computing power so that its single-core and multi-core performances are improved around two-fold and 40 percent respectively when compared to its predecessor. With combination of octa-core CPU consisting of four custom CPUs for performance and four Cortex-A55 for efficiency, the Exynos 9810 offers greater processing power for intensive tasks resulting in seamless multi-tasking and computing experience. Notably, the Exynos 9810 is built on the 2nd generation 10nm FinFET process to deliver a powerful performance with less power.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Gpu</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A graphics processing unit (GPU) is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. GPUs are used in embedded systems, mobile phones, personal computers, workstations, and game consoles.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Hisilicon_processor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">these chips are manufactured by HiSilicon compnay owned by huawei company but architectures for every processor   is given by ARM Compnay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.rd.org#Kirin_659</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Kirin 659 is an ARM-based octa-core System-on-Chip for mid-range smartphones and tablets devices. It integrates 4 power efficient and 4 performance cores respectively (8 ARM Cortex-A53 cores). ... The Kirin 659 is a power efficient chip as it is produced in a modern 16nm FinFET process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Kirin_960</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The HiSilicon Kirin 960 is an ARM based high-end octa-core SoC for smartphones and tablet, which was introduced with the Huawei Mate 9 in November 2016. Besides 8 CPU cores (4x Cortex-A73, 4x Cortex-A53), the SoC is also equipped with a modern Mali-G71 MP8 graphics adapter, a dual-channel LPDDR4 memory controller as well as an LTE Cat. 12/13 modem. It is one of the fastest ARM SoCs in the end of 2016. The Kirin 960 is manufactured in a modern 16-nm process at TSMC.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Kirin_970</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The HiSilicon Kirin 960 is an ARM based high-end octa-core SoC for smartphones and tablet, which was introduced with the Huawei Mate 9 in November 2016. Besides 8 CPU cores (4x Cortex-A73, 4x Cortex-A53), the SoC is also equipped with a modern Mali-G71 MP8 graphics adapter, a dual-channel LPDDR4 memory controller as well as an LTE Cat. 12/13 modem. It is one of the fastest ARM SoCs in the end of 2016. The Kirin 960 is manufactured in a modern 16-nm process at TSMC.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Mali-G31</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Arm Mali-G31 GPU is the very first Ultra-Efficient GPU based on the innovative Bifrost architecture.Bringing the benefits of Bifrost to a whole new tier of device, Mali-G31 builds on the success of the previous Ultra Efficient products in the Mali-400 Utgard series. With significant energy and area savings compared to the next level of device, plus support for the very latest APIs, Mali-G31 is the GPU of choice for cost constrained devic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Mali-G72</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Arm Mali-G72 is the second generation Bifrost-based GPU for High Performance products. Benefitting from advanced technologies such as claused shaders and full system coherency, Mali-G72 adds increased tile buffer memory supporting up to 16 x Multi-Sample Anti-Aliasing at minimal performance cost</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Mali_Gpu</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Mali_Gpu</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Mali series of graphics processing units are semiconductor intellectual property cores produced by ARM Holdings for licensing in various ASIC designs by ARM partners. This line of GPUs was a result of ARM Holdings acquisition of Falanx Microsystems A/S June 23, 2006.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Mediateck_Helio_P20</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A marked evolution of the successful MediaTek Helio P10, MediaTek’s first performance-range SoC in their top-tier MediaTek helio Family of processors, the MediaTek Helio P20 is built on a 16nm process node and offers 25% better power efficiency, higher processing performance and our most advanced camera / video features to date.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Mediateck_Helio_X20</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Mediatek Helio X20 MT6797 is an upper mainstream ARM SoC for smartphones (mainly Android based) that was introduced in 2016. It is manufactured in a 20 nm process and is equipped with 10 CPU cores. Two fast Cortex-A72 cores are running at up to 2.3 GHz, four Cortex-A53 cores at up to 1.83 GHz and four Cortex-A53 cores at up to 1.4 GHz. All cores support 64-bit and the utilization of three clusters is supposed to improve efficiency according to Mediatek</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Mediateck_Helio_X30</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">MediaTek’s Helio X30 is among the first wave of 10nm smartphone chipsets .Featuring a unique 10-core design over three clusters: dual-core ARM Cortex-A73 up to 2.6GHz, quad-core ARM Cortex-A53 up to 2.2GHz and quad-core ARM Cortex-A35 up to 1.9GHz. MediaTek Helio X30 increases performance by up to 35% and saves power by up to 50% over the MediaTek Helio X20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Mediatek_Processor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">these chips are manufactured by Mediatek company but architectures for every processor   is given by ARM Compnay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Nvidea_Tegra_4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">NVIDIA Tegra 4 processor harnesses ARM&apos;s most advanced CPU cores ever, plus a second-generation battery-saver core, to deliver record levels of performance and battery life. The ARM Cortex-A15 CPU is the engine behind Tegra 4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Nvidea_Tegra_K1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The innovative new Tegra K1 processor features the same high-performance, power-efficient NVIDIA Kepler™-based GPU that drives the world&apos;s most powerful supercomputers and PC gaming systems. This means you can now count on even more unbelievable graphics performance, powerful computing, and truly unique features in every Tegra K1-powered mobile device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Nvidea_Tegra_X1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The new Tegra X1 is the most advanced mobile processor we&apos;ve ever created. Powerful new NVIDIA Maxwell™ architecture, 256 GPU cores, multi-core 64-bit CPUs, unbeatable 4K video capabilities, and more power-efficient performance than its predecessor make it perfect for even the most challenging mobile and automotive applications.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.rd.org#Nvidia__Tegra_Processor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tegra is a system on a chip (SoC) series developed by Nvidia for mobile devices such as smartphones, personal digital assistants, and mobile Internet devices.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_Apple</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_Asus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AsusTek Computer Inc. is a Taiwanese multinational computer and phone hardware and electronics company headquartered in Beitou District, Taipei, Taiwan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_Honour</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Huawei Honor (stylized as honor), is a sub-brand belonging to networking and telecommunications equipment and services company Huawei. Headquartered in Shenzhen, China,</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_Htc</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HTC Corporation is a Taiwanese consumer electronics company headquartered in Xindian District, New Taipei City, Taiwan. Founded in 1997, HTC began as an original design manufacturer and original equipment manufacturer, designing and manufacturing laptop computers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_Huawei</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Huawei Technologies Co., Ltd. is a Chinese multinational networking, telecommunications equipment, and services company headquartered in Shenzhen, Guangdong. It is the largest telecommunications equipment manufacturer in the world, having overtaken Ericsson in 2012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_Nvidia</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nvidia Corporation is an American technology company incorporated in Delaware and based in Santa Clara, California. It designs graphics processing units for the gaming and professional markets, as well as system on a chip units for the mobile computing and automotive market</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_Oneplus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OnePlus is a Shenzhen-based Chinese smartphone manufacturer founded by Pete Lau and Carl Pei in December 2013. The company officially serves 34 countries and regions around the world as of July 2018. They have released numerous phones, amongst other products.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_Oppo</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Oppo Electronics Corporation, commonly referred to as Oppo, is a Chinese consumer electronics and mobile communication company, known for its smartphones, Blu-ray players and other electronic devices</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_Samsung</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Samsung is a South Korean multinational conglomerate headquartered in Samsung Town, Seoul. It comprises numerous affiliated businesses, most of them united under the Samsung brand, and is the largest South Korean chaebol. Samsung was founded by Lee Byung-chul in 1938 as a trading company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_Sony</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sony Corporation is a Japanese multinational conglomerate corporation headquartered in Kōnan, Minato, Tokyo. Its diversified business includes consumer and professional electronics, gaming, entertainment and financial services</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_Vivo</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vivo Communication Technology Co. Ltd. is a Chinese technology company owned by BBK Electronics that makes smartphones, smartphone accessories, software, and online services. It was founded in 2009 in Dongguan, China</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_Xiaomi</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Xiaomi Corporation is a Chinese electronics company headquartered in Beijing. Xiaomi makes and invests in smartphones, mobile apps, laptops, and related consumer electronic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Product_Designed_By_lenovo</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lenovo Group Ltd. or Lenovo PC International, often shortened to Lenovo, is a Chinese multinational technology company with headquarters in Beijing, China and Morrisville, North Carolina, United States</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_400_series</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Optimized to meet the unique power and size requirements of wearable devices, the Qualcomm® Snapdragon™ 400 processor is designed to balance power and performance, and to deliver the features, 4G LTE connectivity and battery life that consumers expect in their mobile devices</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_430</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Offering a rich feature set for high-volume smartphones, the Qualcomm® Snapdragon™ 430 mobile platform features an integrated Qualcomm® Snapdragon™ X6 LTE modem, cutting-edge camera technology with a 21MP dual ISP, and a next-generation Qualcomm® Adreno™ 505 GPU. It supports fast downloads and uploads, stunning graphics and photos with battery life to spare.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_450</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">he Qualcomm Snapdragon 450 (SD450) is a lower mainstream SoC for (Android based) smartphones and tablets. It features eight ARM Cortex-A53 cores at up to 1.8 GHz and is already manufactured in the power efficient 14nm process. The integrated X9 LTE modem supports Cat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_600_series</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Qualcomm® Snapdragon™ 600 processor with quad-core CPUs is designed for long battery life, seamless connectivity, fast web browsing and easy adaptability: perfect for high-tier smartphones and advanced embedded applications.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_625</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Qualcomm® Snapdragon™ 625 mobile platform uses leading-edge 14 nm technology to power premium experiences in high-tier smartphones without draining the battery. With features like support for full HD+ (1080p), an integrated Qualcomm® Snapdragon™ X9 LTE modem, and Qualcomm® Adreno™ 506 PC-class graphics, the Snapdragon 625 is designed to provide fast connectivity, vibrant displays, and performance that&apos;s both powerful and efficient.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_650</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Qualcomm® Snapdragon™ 650 mobile platform supports high-quality, efficient performance, multimedia, gaming and connectivity, thanks to its powerful 64-bit capable hexa-core CPUs, integrated Qualcomm® Snapdragon™ X8 LTE with Cat 7 speeds, Qualcomm® Adreno™ 510 GPU, and support for 4K Ultra HD video</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_660</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">High-end features in the Qualcomm® Snapdragon™ 660 mobile platform make it our most powerful 600-tier platform to date, with the powerful Qualcomm® Artificial Intelligence Engine (AIE), Qualcomm Spectra™ ISP, Qualcomm® Kryo™ CPU built on ARM Cortex technology, and Qualcomm® Hexagon™ DSP with Hexagon Vector eXtensions (HVX) supported for the first time in the 600 tier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_700_Series</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Premium features in the Qualcomm® Snapdragon™ 700 mobile platform elevate your mobile experiences. The Qualcomm Spectra™ ISP adds professional-grade camera features and the multi-core Qualcomm® Artificial Intelligence (AI) Engine combines brand-new architectures for efficient and powerful performance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_710</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Premium features in the Qualcomm® Snapdragon™ 710 mobile platform elevate your mobile experiences. The Qualcomm Spectra™ ISP adds professional-grade camera features and the multi-core Qualcomm® Artificial Intelligence (AI) Engine combines brand-new architectures for efficient and powerful performance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_800_Series</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Qualcomm® Snapdragon™ 800 processor was the first processor in the Snapdragon 800 series. It sets the bar for premium-tier smartphones and tablets with its superior processing and graphics performance, outstanding battery life, amazing communications, and breakthrough multimedia experiences</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_820</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">As one of the most cutting-edge mobile processors ever created, the Qualcomm® Snapdragon™ 820 mobile platform with X12 LTE supports the ultimate in connectivity, graphics, photography, power and battery efficiency. See firsthand how we’ve designed the 820 from the ground up to be unlike anything else</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_835</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">With an advanced 10-nanometer design, the Qualcomm® Snapdragon™ 835 mobile platform can support phenomenal mobile performance. It is 35% smaller and uses 25% less power than previous designs, and is engineered to deliver exceptionally long battery life, lifelike VR and AR experiences, cutting-edge camera capabilities and Gigabit Class download speeds.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_845</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">They say the best is yet to come. We say, with the Qualcomm® Snapdragon™ 845 mobile platform, it’s here. Every forward-looking feature—including immersive XR experiences, an intelligent personal assistant and advanced vault-like security—is enabled by the Snapdragon 845 mobile platform. It also delivers up to 1.2 Gbps peak download speeds across a broader spectrum—our platform is smarter and faster than ever before.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#Snapdragon_Processor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">these chips are manufactured by Qualcom  company but architectures for every processor   is given by ARM Compnay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#mobile_company_product</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">these category shows all mobile phone companies in market</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#mobile_processo</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">it is main component of a mobile phones which  can  handle multiple functionalities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.rd.org#samsung_exynos_processor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">these chips are also manufactured by samsung company but architectures for every processor   is given by ARM Compnay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.rd.org#supports_fast_charging</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Quick Charge is a proprietary technology which allows for the charging of battery powered devices, primarily mobile phones, at levels above and beyond the typical 5 volts and 2 amps for which most USB standards allow. Numerous other companies have their own competing technologies; these include Mediatek&apos;s Pump Express, OPPO&apos;s VOOC (licensed to OnePlus as Dash Charge).[1] To take advantage of Qualcomm Quick Charge, both the host providing power and the device must support it. In 2012 the USB Implementers Forum (USB IF) announced that their USB Power Delivery (USB PD) standard had been finalized which allows for devices to transfer up to 100 watts of power over capable USB ports.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AMPS</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">was an analog mobile phone system standard developed by Bell Labs, and officially introduced in the Americas on October 13, 1983,[1][2][3] Israel in 1986, Australia in 1987, Singapore in 1988, and Pakistan in 1990.[4] It was the primary analog mobile phone system in North America (and other locales) through the 1980s and into the 2000s</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Andriod</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Android is a mobile operating system developed by Google, based on a modified version of the Linux kernel and other open source software and designed primarily for touchscreen mobile devices such as smartphones and tablets</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Andriod_6.0</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Android 6.0 &quot;Marshmallow&quot; is the sixth major version of the Android operating system and the 13th version of Android. First released as a beta build on May 28, 2015, it was officially released on October 5, 2015, with Nexus devices being the first to receive the update</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Andriod_7.0</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Android &quot;Nougat&quot; is the seventh major version and 14th original version of the Android operating system. First released as an alpha test version on March 9, 2016, it was officially released on August 22, 2016, with Nexus devices being the first to receive the update.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Andriod_8.0</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Android &quot;Oreo&quot; (codenamed Android O during development) is the eighth major update and the 15th version of the Android operating system. It was first released as an alpha quality developer preview in March 2017 and released to the public on August 21, 2017.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Apple_os</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">iOS (formerly iPhone OS) is a mobile operating system created and developed by Apple Inc. exclusively for its hardware. It is the operating system that presently powers many of the company&apos;s mobile devices, including the iPhone, iPad, and iPod Touch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CDMA_ONE</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Interim Standard 95 (IS-95) was the first ever CDMA-based digital cellular technology. It was developed by Qualcomm and later adopted as a standard by the Telecommunications Industry Association in TIA/EIA/IS-95 release published in 1995. The proprietary name for IS-95 is cdmaOne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GSM</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The GSM logo is used to identify compatible devices and equipment. The dots symbolize three clients in the home network and one roaming client.[1]
+GSM (Global System for Mobile communications) is a standard developed by the European Telecommunications Standards Institute (ETSI) to describe the protocols for second-generation digital cellular networks used by mobile devices such as tablets. It was first deployed in Finland in December 1991.[2] As of 2014, it has become the global standard for mobile communications – with over 90% market share, operating in over 193 countries and territories</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Ios_10</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">iOS 10 is the tenth major release of the iOS mobile operating system developed by Apple Inc., being the successor to iOS 9. It was announced at the company&apos;s Worldwide Developers Conference on June 13, 2016, and was released on September 13, 2016. It was succeeded by iOS 11 on September 19, 2017</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Ios_11</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">iOS 11 is the eleventh major release of the iOS mobile operating system developed by Apple Inc., being the successor to iOS 10. It was announced at the company&apos;s Worldwide Developers Conference on June 5, 2017, and released on September 19, 2017. It was succeeded by iOS 12 on September 17, 2018</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Ios_12</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">iOS 12 is the twelfth major release of the iOS mobile operating system developed by Apple Inc., being the successor to iOS 11. It was announced at the company&apos;s Worldwide Developers Conference on June 4, 2018.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#LTE_ADVANCED</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LTE Advanced (with carrier aggregation) signal indicator in Android
+LTE Advanced is a mobile communication standard and a major enhancement of the Long Term Evolution (LTE) standard. It was formally submitted as a candidate 4G to ITU-T in late 2009 as meeting the requirements of the IMT-Advanced standard, and was standardized by the 3rd Generation Partnership Project (3GPP) in March 2011 as 3GPP Release</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#LTE_ADVANCED_PRO</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LTE Advanced Pro (LTE-A Pro, also known as 4.5G, 4.5G Pro, 4.9G, Pre-5G, 5G Project)[1][2][3][4] is a name for 3GPP release 13 and 14.[5][6] It is the next-generation cellular standard following LTE Advanced (LTE-A) and supports data rates in excess of 3 Gbps using 32-carrier aggregation.[7] It also introduces the concept of License Assisted Access, which allows sharing of licensed and unlicensed spectrum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Network_Coverage_Band</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A key part of any mobile phone specification is its operating frequency bands. The supported frequency bands determine whether a certain handset is compatible with a certain network carrier.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#TACS</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TACS) and ETACS are mostly-obsolete variants of Advanced Mobile Phone System (AMPS) which was announced as the choice for the first two UK national cellular systems in February 1983, less than a year after the UK government announced the T&amp;Cs for the two competing mobile phone networks in June 1982.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#UMTS</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Universal Mobile Telecommunications System (UMTS) is a third generation mobile cellular system for networks based on the GSM standard. Developed and maintained by the 3GPP (3rd Generation Partnership Project), UMTS is a component of the International Telecommunications Union IMT-2000 standard set and compares with the CDMA2000 standard set for networks based on the competing cdmaOne technology. UMTS uses wideband code division multiple access (W-CDMA) radio access technology to offer greater spectral efficiency and bandwidth to mobile network operators</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Windows_10</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Windows 10 Mobile is a mobile operating system developed by Microsoft, released in 2015. Although it is the successor of Windows Phone 8.1, it is an edition of Windows 10 running on devices that have less than a 9-inch screen, as a result of Microsoft&apos;s plans to unify Windows families across multiple device classes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Windows_os8.1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Windows Phone 8 is the second generation of the Windows Phone mobile operating system from Microsoft. It was released on October 29, 2012, and like its predecessor, it features a flat user interface based on Metro design language. It was succeeded by Windows Phone 8.1, which was unveiled on April 2, 2014.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#mobile_software</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A mobile operating system (or mobile OS) is an operating system for phones, tablets, smartwatches, or other mobile devices. While computers such as typical laptops are &apos;mobile&apos;, the operating systems usually used on them are not considered mobile ones, as they were originally designed for desktop computers that historically did not have or need specific mobile features. This distinction is becoming blurred in some newer operating systems that are hybrids made for both uses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#windows_os</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Windows Phone is a family of discontinued mobile operating systems developed by Microsoft for smartphones as the replacement successor to Windows Mobile and Zune. Windows Phone features a new user interface derived from Metro design language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#1G_Band</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">First Generation wireless technology (1G) is the original analog, voice-only cellular telephone standard, developed in the 1980s.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#2G_Band</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">provides three primary benefits over their predecessors: phone conversations are digitally encrypted; 2G systems are significantly more efficient on the spectrum allowing for far greater mobile phone penetration levels; and 2G introduced data services for mobile, starting with SMS (Short Message Service) plain text-based messages. 2G technologies enable the various mobile phone networks to provide the services such as text messages, picture messages and MMS (Multimedia Message Service). It has 3 main services: Bearer services is one of them which is also known as data services and communication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#3G_Band</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">provides three primary benefits over their predecessors: phone conversations are digitally encrypted; 2G systems are significantly more efficient on the spectrum allowing for far greater mobile phone penetration levels; and 2G introduced data services for mobile, starting with SMS (Short Message Service) plain text-based messages. 2G technologies enable the various mobile phone networks to provide the services such as text messages, picture messages and MMS (Multimedia Message Service). It has 3 main services: Bearer services is one of them which is also known as data services and communication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#4G_Band</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">4G provides, in addition to the usual voice and other services of 3G, mobile broadband Internet access, for example to laptops with wireless modems, to smartphones, and to other mobile devices. Potential and current applications include amended mobile web access, IP telephony, gaming services, high-definition mobile TV, video conferencing, 3D television, and cloud computing.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
